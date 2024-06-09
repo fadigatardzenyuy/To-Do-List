@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* General contaneir */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    height: 100vh;
+    flex-direction: column;
+
+}
+
+/* heading */
+h1 {
+    color: rgb(145, 141, 135);
+    font-family: sans-serif;
+}
+
+/* line */
+.line{
+    width: 250px;
+    height: 2px;
+    background-color: #fff;
+    margin-top: -15px;
+}
+
+.deco{
+    color: teal;
+}
