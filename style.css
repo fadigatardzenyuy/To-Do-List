@@ -12,6 +12,7 @@ body {
     background-color: #222;
     height: 100vh;
     flex-direction: column;
+    padding: 20px;
 
 }
 
@@ -48,8 +49,9 @@ h1 {
 /* profile */
 .profile {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 12px;
 }
 
 .avatar{
@@ -60,4 +62,82 @@ h1 {
 }
  .name {
     color: #fff;
+    display: flex;
+    flex-direction: column;
+
  }
+
+ p{
+    margin-top: -1rem;
+    color: teal;
+ }
+
+/* todos */
+.todos {
+    /* background-color: #c34040; */
+    width: 350px;
+    height: 300px;
+    margin: 0 auto;
+    overflow-y:scroll ;
+}
+
+.item_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px;
+    border: 1px solid rgb(22, 199, 199);
+    margin: 12px;
+}
+
+.item {
+    color: wheat;
+    font-size: 17px;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.cross {
+    background-color: limegreen;
+    color: white;
+    padding: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ;
+}
+
+.star {
+    background-color: red;
+    color: white;
+    padding: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.input{
+    margin-top: 17px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#111;
+    margin: 23px;
+    padding: 10px;
+    gap: 10px;
+
+}
+
+input{
+    border: none;
+    outline: none;
+    background-color: #111;
+    color: #999;
+    width: 100%;
+}
+
+.add {
+    cursor: pointer;
+}
