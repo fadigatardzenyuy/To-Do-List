@@ -32,3 +32,32 @@ h1 {
 .deco{
     color: teal;
 }
+
+/* style the app */
+.todo{
+    height: 450px;
+    width: 350px;
+    background-color: #2b2626;
+    margin-top: 3rem;
+    box-shadow: 12px 12px 12px ;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+/* profile */
+.profile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    
+}
+ .name {
+    color: #fff;
+ }
